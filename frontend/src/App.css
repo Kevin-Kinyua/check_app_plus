@@ -16,6 +16,7 @@ html {
   padding: 1rem 4rem;
   background: #3e5de87d;
   display: flex;
+  align-items: center;
 }
 
 .img-box {
@@ -33,15 +34,17 @@ html {
 .header__list {
   list-style: none;
   display: flex;
+  justify-content: space-between;
   align-items: flex-end;
 }
 
 .header__list--item:not(:last-child) {
-  margin-right: 4rem;
+  margin-right: 7rem;
 }
 
 .header__list--item a {
   font-size: 2.5rem;
   text-transform: uppercase;
   color: #000000e2;
+  text-decoration: none;
 }
