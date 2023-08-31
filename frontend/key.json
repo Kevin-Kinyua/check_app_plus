@@ -1,0 +1,15 @@
+{
+  "type": "service_account",
+  "project_id": "checkappplus",
+  "private_key_id": "61edf319921e9b49c177de9e2ea4b5d6aaa5c460",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC6yEIBhDioHRrw\nHkG+eLSVxfp02AHy3BAUQzUV8VOprKun7QICjneP5stAgh2NnWoT5q1uqkb45///\nSLREzlmRQG3NYGxvPSjKDmFcgEr+geIMppsSZZZMOMa51YtPvA+rslNZPzlqRUD6\nqHH0xM2zZAm+CuK6y34gm9hw4ucodhom2U1xz4TPy2oRsMrQ8UvLd0reUhuXxMXI\n9678ImtpwxJdcwLRDtc0/i9fFuYvpYSwQnSxXXhfec8wDh1ejHPggZo6t6GLo3H2\nNvyCZYtTuCENkopCz42iK6MdO9cbXAWLxzaCqpFW71KbMwv9gKTkLWEWqLFsZkDg\ntx9N9piVAgMBAAECggEAKhTUpC1TK3MVPtx+QOjGfMj0Ns90zu/MEpiatPUgPYXI\nzcZc0dEhuFLN35yBBocc31t1Hw3vfAQe/be2X5si/FHo+yC6hWxgzHclcdb4rnL6\nSBHgNaqcDFOtWDB3mND8sdj1JNIVAC+WpnJ9bCFL29sRw9aFgwK2Saf7AWHppQhl\n49XhpF0kpDnSjZCctdsHu47Caf2sdZ4a72Yote0v+3y5Fv8OxkdbW+zc4BA2ePfW\nZ8Hx+o/bwPjh3bbcp4e85ZzKPJZrpB9yF2VRFWs1Xw3NCXy69Ok6KOlbGKv5rcl0\nySDuOOqKFfbC2oXs4AGfT6FcbK0p6XeZ6GLJauNeuQKBgQDsPHmLQQd/Y1Yxb4Jo\n00HqiEItEQxUL998+4Lcf8A3dk6QhyDzDpNfKA2joPBE6NEApH0JY/35ALW9oDLS\nbQ25wPAGeVjtQYSQkz8sL4mTWmO38NPihk08iwuh3cwKJwWNks4SFBg/Jd6fp52H\n7UU1csfoyWEeVsw2lqSLzHBQiQKBgQDKaJ21KCNCDXfJaGdb/zTnGPAEKuerSYbp\npslfmTJhx+7i21vowIQ45XPrXhRYsB9wmqXJQ/PhH/Kr8BiPEhD7qeACHSeVMFDa\nf1s0SUQqP+auXSwnhPRznddPkUMfhsfo8ypihIRWgj6TAFTRCEdFjMmVPQTzpE1M\nzXBzsAvMrQKBgGBn2Y4rrpyc9FreT9DpjbfhfWgY0fg1RTYjCedkNxQrMqqmiprG\nMvwdQ1uoXQUyIcDqX6CKbuXEFWbaToMzP+uzQgDSWqkQGMJLZPdqOvGobJNvM3j5\nJ+HyOIAJHLBz9j8tTu1vx+lVUgHDjHUhLiI+wjhMnlacQ2Bvn5zxhFBJAoGBAItZ\n+zn9qEiRfSbs+jwcOA/i21wDLfx/YqL6cSmgD0/ClnUZEO3tnRqO3n/tBZUJrJuZ\n3Qnz/rO/ixNU+ZOGnKqnCdJqwBW2bfQAOoqE5qkv1WG2Q+/xWVtAEDx3hf7ujDOV\nNlkdYv8sLGiIkdxYFrmLdD2LBR24wH9f8Uu0qGsBAoGBAKzdUWf3321JKXjRzSSt\ntJcl4tALHImGRwXzP+9SSuKVUSsDbdSk1de1lY/kURhWJMPGzhXjPFBYawjzVMFX\nwNfbOBF6hypFkMtWr1E4o/bJzOYc+mem8WCzpoy/eRir0y+9nRstCCxQnOlh+rvQ\nGtacLtJKkY3wEdG1+5CKQ2hr\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-821ud@checkappplus.iam.gserviceaccount.com",
+  "client_id": "105306881003482680758",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-821ud%40checkappplus.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+
+// checkappplus-firebase-adminsdk-821ud-61edf31992

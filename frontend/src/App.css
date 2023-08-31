@@ -12,6 +12,7 @@ html {
   color: #000000e2;
 }
 
+/* ***********HEADER************ */
 .header {
   padding: 1rem 4rem;
   background: #3e5de87d;
@@ -21,6 +22,7 @@ html {
 
 .img-box {
   flex: 0 0 25%;
+  height: 100%;
 }
 
 .header__img {
@@ -48,3 +50,8 @@ html {
   color: #000000e2;
   text-decoration: none;
 }
+
+
+/* ***********MAIN************ */
+
+/* ***********FOOTER************ */
