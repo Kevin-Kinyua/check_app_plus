@@ -15,7 +15,7 @@ const Header = () => {
                 </ul>
             </nav>
             <div className='login-box'>
-                <a href='##' className='header__login'>Log in</a>
+              <a href='#' className='header__login'><button class="button" type="button">Login</button></a>
             </div>
         </header>
     )
