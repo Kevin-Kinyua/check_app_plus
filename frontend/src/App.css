@@ -95,5 +95,154 @@ body{
 }
 
 /* ***********MAIN************ */
+.home {
+  margin: 7rem 17rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
+.home__content {
+  flex: 0 0 50%;
+}
+
+.home__content h1 {
+  color: #3E5CE8;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 5rem;
+  margin-bottom: 1.25rem;
+}
+
+.home__content h3 {
+  font-size: 4rem;
+  margin-bottom: 1.25rem;
+}
+
+.home__content p {
+  font-size: 1.6rem;
+  margin-bottom: 3.5rem;
+}
+
+.home__content button {
+  font-size: 2.5rem;
+  padding: 1rem 7rem;
+  margin-left: 4rem;
+  background-color: #3E5CE8;
+  border: none;
+  border-radius: 1.5rem;
+  color: #ffffff;
+}
+
+.home__image-box img {
+  height: 45rem;
+}
+
+.services {
+  margin: 7rem 17rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.services__search {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.services__input {
+  position: absolute;
+  width: 100%;
+  height: 6rem;
+  padding: 0 30% 0 2rem;
+  display: inline-block;
+  border-radius: 1.2rem;
+  border: 1px solid #B8B8B8;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #434343;
+}
+
+.services__input:focus {
+  border: 1px solid #3E5CE8;
+  outline: none;
+}
+
+.services__btn {
+  text-decoration: none;
+  font-size: 2.2rem;
+  position: absolute;
+  right: 0;
+  padding: 2rem 5rem;
+  background-color: #3E5CE8;
+  display: inline-block;
+  border-top-right-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
+  border: none;
+  font-weight: 400;
+  line-height: 1.9rem;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1400px) {
+  .services__input {
+    padding: 0 45% 0 2rem;
+  }
+
+  .services__btn {
+    padding: 2rem 3rem;
+  }
+}
+
+.services__cards {
+  margin-top: 15rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 4rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cards {
+    grid-template-columns: 1fr;
+    padding: 0 10%;
+  }
+}
+
+.card {
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+}
+
+
+.card__frame {
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.card_label p {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card_label button {
+  font-size: 2rem;
+  width: 100%;
+  padding: 1rem;
+  border-radius: .75rem;
+  background-color: #84C4F6;
+  border: none;
+  color: #ffffff;
+}
 /* ***********FOOTER************ */

@@ -1,77 +1,19 @@
 import React from 'react'
+import img from '../img/feature-img.png'
 
 const Home = () => {
   return (
-    <>
-    {/* ============= Hero Section ============= */}
-      <>
-        <section className="hero__section pt-[60px] 2xl:h-[800px]">
-          <div className="container">
-            <div className="flex flex-col lg:flex-row gap-[90px] items-center justify-between">
-              {/* ============= hero content ============= */}
-              <div>
-                <div className="lg:w-[570px]">
-
-                  <h1 className="text-[36px] leading-[46px] text-headingColor font-[800] md:text-[60px]
-                  md:leading-[70px] ">
-                    We help patients live a long healthy, longer life.
-                  </h1>
-
-                  <p className="text__para">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                  Mauris a diam maecenas sed. Est ultricies integer quis auctor elit 
-                  sed. Mus mauris vitae ultricies leo integer malesuada.
-                  </p>
-
-                  <button className="btn"> Book an Appointment</button>
-
-                </div>
-
-                {/* ============= Hero Counter ============= */}
-                <div className="mt-[30px] lg:mt-[70px] flex flex-col lg:flex-row lg:items-center gap-5
-                lg:gap-[30px]">
-
-                  <div>
-                    <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor">
-                      30+
-                    </h2>
-                    <span className="w-[100px] h-2 bg-yellowColor rounded-full block mt-[-14px]"></span>
-                    <p className="text__para">Years of Experience</p>
-                  </div>
-
-                  <div>
-                    <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor">
-                      15+
-                    </h2>
-                    <span className="w-[100px] h-2 bg-purpleColor rounded-full block mt-[-14px]"></span>
-                    <p className="text__para">Clinical Locations</p>
-                  </div>
-
-                  <div>
-                    <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor">
-                      100%
-                    </h2>
-                    <span className="w-[100px] h-2 bg-irisBlueColor rounded-full block mt-[-14px]"></span>
-                    <p className="text__para">Patient Satisfaction</p>
-                  </div>
-
-                </div>
-
-              </div>
-
-              {/* ============= hero content ============= */}
-              <div className="flex gap-[30px] justify-end">
-                <div>
-                  <img src={heroImg01} alt="" />
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </section>      
-      </>
-    </>
+    <div className='home'>
+      <div className='home__content'>
+        <h1>Medibook <span>+</span></h1>
+        <h3>Healthcare accessible at the tips of your finger</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+        <button>Book an appointment</button>
+      </div>
+      <div className='home__image-box'>
+        <img src={img} alt='' />
+      </div>
+    </div>
   )
 }
 
