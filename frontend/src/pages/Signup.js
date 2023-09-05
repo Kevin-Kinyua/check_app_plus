@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Home = () => {
+const Signup = () => {
   return (
     <>
-    <div >
+    <div className="container">
       <div class="hero-image">
         <div class="hero-text">
           <h1>Medicare Access made easy</h1>
@@ -18,4 +18,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Signup

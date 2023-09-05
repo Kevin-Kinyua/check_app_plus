@@ -16,9 +16,10 @@ const Header = () => {
                 </ul>
             </nav>
             <div className='login-box'>
-              <a href='/login.js' className='header__login'><button class="button" type="button">Login</button></a>
+              <a href='/login' className='header__register'><button class="button" type="button">Login</button></a>
             </div>
         </header>
+        
     )
 }
 
