@@ -1,4 +1,5 @@
 import logo from '../img/25-png.png'
+import {Link} from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -8,10 +9,10 @@ const Header = () => {
             </div>
             <nav className='header__nav'>
                 <ul className='header__list'>
-                    <li className='header__list--item'><a href='##'>Home</a></li>
-                    <li className='header__list--item'><a href='##'>Services</a></li>
-                    <li className='header__list--item'><a href='##'>Find a Doctor</a></li>
-                    <li className='header__list--item'><a href='##'>Contact</a></li>
+                    <li className='header__list--item'><Link to='/'>Home</Link></li>
+                    <li className='header__list--item'><Link to='/services'>Services</Link></li>
+                    <li className='header__list--item'><Link to='/doctors'>Find a Doctor</Link></li>
+                    <li className='header__list--item'><Link to='/contact'>Contact</Link></li>
                 </ul>
             </nav>
             <div className='login-box'>
