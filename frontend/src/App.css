@@ -341,13 +341,13 @@ body{
   border: none;
   color: #ffffff;
 }
-<<<<<<< HEAD
 
 .form {
   width: 80rem;
   padding: 4rem 2rem;
   border: none;
   margin: 10rem auto;
+  margin-bottom: 25rem;
   border-radius: 1rem;
   background: #DDDDDD;
 }
@@ -404,6 +404,4 @@ body{
   margin-bottom: 1rem;
 }
 /* ***********FOOTER************ */
-=======
-/* ***********FOOTER************ */
->>>>>>> 5007714a5e0d836e6adbf6c85bafd85846268951
+

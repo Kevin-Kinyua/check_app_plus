@@ -16,11 +16,7 @@ const Header = () => {
                 </ul>
             </nav>
             <div className='login-box'>
-<<<<<<< HEAD
-              <Link to='/login' class="button">Login</Link>
-=======
-              <a href='/login' className='header__register'><button class="button" type="button">Login</button></a>
->>>>>>> 5007714a5e0d836e6adbf6c85bafd85846268951
+              <Link to='/login' className='header__register'><button class="button" type="button">Login</button></Link>
             </div>
         </header>
         
