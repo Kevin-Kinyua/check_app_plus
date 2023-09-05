@@ -245,4 +245,65 @@ body{
   border: none;
   color: #ffffff;
 }
+
+.form {
+  width: 80rem;
+  padding: 4rem 2rem;
+  border: none;
+  margin: 10rem auto;
+  border-radius: 1rem;
+  background: #DDDDDD;
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    width: 80%;
+    padding: 3rem 2rem;
+  }
+}
+
+.form h2 {
+  width: 12rem;
+  margin-bottom: 2.2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 5px solid #3E5CE8;
+  padding-bottom: .8rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+}
+
+.form-group label {
+  font-size: 2rem;
+  margin-bottom: .7rem;
+  font-weight: 700;
+}
+
+.form-control {
+  height: 5rem;
+  display: block;
+  width: 100%;
+  font-size: 1.6rem;
+  border: 2px solid #ddd;
+  border-radius: 1rem;
+}
+
+.form button {
+  display: block;
+  margin-left: 2rem;
+  margin-top: 7rem;
+  height: 5rem;
+  width: 97%;
+  font-size: 2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: .8rem;
+  color: #ffffff;
+  background-color: #3E5CE8;
+  margin-bottom: 1rem;
+}
 /* ***********FOOTER************ */
