@@ -1,5 +1,5 @@
 import React from 'react'
-import DataAdv from '../JsonData/DataAdv'
+import { Data_service } from '../JsonData/DataAdv'
 
 const Services = () => {
   return (
@@ -11,7 +11,7 @@ const Services = () => {
       <div className='services__cards'>
         <div className="cards">
             {
-                DataAdv.map((cardData) => {
+                Data_service.map((cardData) => {
                     return(
                     <div key={cardData.key} className="card">
                         <img src={cardData.image} alt="" className="card__frame" />

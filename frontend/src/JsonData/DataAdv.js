@@ -3,7 +3,7 @@ import frame2 from '../img/doctor-img02.png'
 import frame3 from '../img/doctor-img03.png'
 import frame4 from '../img/doctor-img03.png'
 
-const DataAdv = [
+const Data_service = [
     {
         key: 1,
         image: frame1,
@@ -29,4 +29,32 @@ const DataAdv = [
         num: 50
     },
 ]
-export default DataAdv;
+
+const Data_doctor = [
+    {
+        key: 1,
+        image: frame1,
+        p: "Dr. John Doe",
+        p2: "Service",
+    },
+    {
+        key: 2,
+        image: frame2,
+        p: "Dr. John Doe",
+        p2: "Service",
+    },
+    {
+        key: 3,
+        image: frame3,
+        p: "Dr. John Doe",
+        p2: "Service"
+    },
+    {
+        key: 4,
+        image: frame4,
+        p: "Dr. John Doe",
+        p2: "Service"
+    },
+]
+
+export { Data_service, Data_doctor };

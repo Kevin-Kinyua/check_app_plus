@@ -5,6 +5,7 @@ import Login from '../pages/Login'
 import Signup from '../pages/Signup'
 import Contact from '../pages/Contact'
 import Doctors from '../pages/Doctors'
+import BookDoctor from '../pages/Book_Doctor'
 // import DoctorDetails from '../pages/Doctors/DoctorDetails'
 import Patients from '../pages/Patients'
 // import PatientDetails from '../pages/Patients/PatientDetails'
@@ -16,6 +17,7 @@ const Routers = () => {
     <Route path='/' element={<Home/>}/>
     {/*<Route path='/home' element={<Home/>}/>*/}
     <Route path='/doctors' element={<Doctors/>}/>
+    <Route path='/book_doctor' element={<BookDoctor/>}/>
     {/* <Route path='/doctors/:id' element={<Home/>}/> */}
     <Route path='/patients' element={<Patients/>}/>
     {/* <Route path='/patients/:id' element={<Home/>}/> */}
